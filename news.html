@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav container">
+
+            <img src="./images/news-logo-final.png" class="logo" onclick="reload()">
+            
+
+            <div class="new-div">
+                <div class="nav-links">
+                    <ul>
+                        <li class="hover-link nav-item" onclick="onNavItemClick('Finance')"  id="Finance" >Finance</li>
+                        <li class="hover-link nav-item" onclick="onNavItemClick('Politics')"  id="Politics" >Politics</li>
+                        <li class="hover-link nav-item" onclick="onNavItemClick('Sports')"  id="Sports" >Sports</li>
+                        <li class="hover-link nav-item" onclick="onNavItemClick('Tech')"  id="Tech">Tech</li>
+                    </ul>
+
+                    <img src="./images/sun.png" alt="light mode" class="light-dark-mode-img">
+
+                    <!-- <img src="sun.png" alt="light mode" class="light-dark-mode-img"> -->
+                </div>
+
+                <!-- <img src="sun.png" alt="light mode" class="light-dark-mode-img"> -->
+            </div>
+            <!-- </div>     -->
+                <!-- <div class="light-dark-mode"> -->
+                
+                <!-- </div> -->
+            <!-- </div> -->
+            
+
+            <!-- <div class="light-dark-mode">
+                <img src="sun.png" alt="light mode" class="light-dark-mode-img">
+            </div> -->
+    
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search topic...">
+                <button class="search-button">Search</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+        <div class="card-container container">
+            <!-- <div class="card">
+                <div class="card-header">
+                    <img src="./5811637.jpg" alt="card image">
+                </div>
+                <div class="card-content">
+                    <h3  class="news-title" id="news-title">Card title</h3>
+                    <h5 class="news-source" id="news-source">Card title</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque dolore adipisci illo numquam suscipit natus repudiandae, libero cumque quas quisquam possimus laboriosam sapiente a aut maxime est quibusdam id?
+                        Sapiente, perferendis. Sequi inventore, ex atque aperiam dignissimos soluta odit officia cumque voluptatem laborum mollitia error, eaque ipsam ipsum in neque quam voluptatum unde perferendis libero placeat, sed quos repudiandae? </p>
+                </div>
+            </div> -->
+        </div>
+    </main>
+
+    <template>
+        <div class="card">
+            <div class="card-header">
+                <img class="news-img" src="./images/6978720.jpg" alt="card image">
+            </div>
+            <div class="card-content">
+                <h3  class="news-title" id="news-title">Card title</h3>
+                <h5 class="news-source" id="news-source">Card title</h5>
+                <p class="news-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt neque dolore adipisci illo numquam suscipit natus repudiandae, libero cumque quas quisquam possimus laboriosam sapiente a aut maxime est quibusdam id?
+                    Sapiente, perferendis. Sequi inventore, ex atque aperiam dignissimos soluta odit officia cumque voluptatem laborum mollitia error, eaque ipsam ipsum in neque quam voluptatum unde perferendis libero placeat, sed quos repudiandae? </p>
+            </div>
+        </div>
+    </template>
+                    
+
+
+
+    <script src="news.js"></script>
+</body>
+</html>
